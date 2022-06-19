@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: #33a0d9;
+  display: flex;
+  height: 104px;
+}
+
+.nav .n1 {
+  width: 25%;
+  /* border: 1px solid #000; */
+  /* text-align: center; */
+}
+
+.n1 img {
+  height: 70px;
+  width: 185px;
+  margin-left: 100px;
+  margin-top: 21px;
+}
+
+.n1 h1 {
+  color: white;
+  font-size: 18px;
+}
+
+.n1 p {
+  color: black;
+  font-size: 10px;
+}
+
+.nav .n2 {
+  width: 75%;
+  /* border: 1px solid #000; */
+}
+
+.n2 ul {
+  display: flex;
+  justify-content: end;
+}
+
+.n2 ul li {
+  padding-right: 50px;
+  font-size: 24px;
+  list-style: none;
+  margin-top: 34.62px;
+  margin-bottom: 34.62px;
+  margin-left: 54.1px;
+  margin-right: 34.51px;
+  font-weight: 700;
+}
+
+.n2 button {
+  height: 54px;
+  width: 144px;
+  margin-left: 87.15px;
+  margin-top: 24.04px;
+  margin-bottom: 24.04px;
+  border-radius: 8px;
+  margin-right: 2.85px;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+}
+
+.form {
+  height: 593px;
+  width: 100%;
+  /* border: 1px solid red; */
+  background-image: url(./Back\ drop\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 300px;
+}
+
+.form .f1 {
+  height: max-content;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.f1 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 287px;
+}
+
+.f1 label {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.205em;
+  text-align: left;
+}
+
+.f1 input {
+  height: 45px;
+  width: 417px;
+  /* left: 483px;
+top: 578px; */
+  border-radius: 2px;
+  font-size: 24px;
+}
+
+.active_error {
+  border-color: red !important;
+}
+
+.error p {
+  color: red;
+}
+.fotter {
+  height: 138px;
+  background-color: #33a0d9;
+}
+
+.fotter .links {
+  height: max-content;
+  width: max-content;
+  margin-top: 51px;
+  margin-bottom: 51px;
+}
+
+.fotter .links ul {
+  display: flex;
+  margin-left: 100.5px;
+}
+
+.fotter .links ul li {
+  list-style: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 49px;
+}
+
+.f1 button {
+  height: 68px;
+  width: 441px;
+  left: 483px;
+  top: 703px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.205em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+}
